@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head xmlns="http://www.w3.org/1999/html">
+    <title>Make Sticker</title>
+
+    <style type="text/css">
+        body {
+            background-color: #7ccbff;
+        }
+
+        .sticker {
+            position: relative;
+            width: 180px;
+            height: 180px;
+            margin: 50px;
+            margin-left: auto;
+             margin-right: auto;
+            
+        }
+
+        .example-1 .sticker-img {
+            background-image: url(Frame-28.png);
+        }
+
+        .example-2 .sticker-img {
+            background-image: url(Frame-29.png);
+        }
+
+        .example-3 .sticker-img {
+            background-color: #f7786b;
+        }
+
+
+
+        .example-2 .sticker-shadow {
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="sticker example-1"></div>
+
+    <div class="sticker example-2"></div>
+
+    <div class="sticker example-3"></div>
+
+    <script src="sticker.min.js"></script>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            Sticker.init('.sticker');
+        }
+    </script>
+</body>
+</html>
