@@ -1,7 +1,7 @@
 import { Text } from "./text.js";
 import { Particle } from "./particle.js";
 
-export const RANDOM_TEXT = "ABCMNRSTUXZ";
+export const RANDOM_TEXT = "DSGM";
 
 export class Visual {
   constructor() {
