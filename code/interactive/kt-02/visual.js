@@ -24,7 +24,7 @@ export class Visual {
       stage.removeChild(this.container);
     }
 
-    this.pos = this.text.setText("DSGM", 2, stageWidth, stageHeight);
+    this.pos = this.text.setText("DSGM", 1, stageWidth, stageHeight);
 
     this.container = new PIXI.ParticleContainer(this.pos.length, {
       vertices: false,
