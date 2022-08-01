@@ -24,3 +24,7 @@
 - [Rotate Polygon](/code/interactive/rotating-polygon-main/index.html)
 
 # Developer
+
+
+# Blog: DeranoSurus
+- [Helloworld](/posts/2019-08-27-001_Hello-World.md)
